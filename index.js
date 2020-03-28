@@ -21,7 +21,7 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-
+//test
 authRoutes(app);
 // connectDB();
 //?or
