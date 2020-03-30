@@ -21,7 +21,7 @@ passport.use(
     {
       clientID: keys.googleClientID,
       clientSecret: keys.googleClientSecret,
-      callbackURL: "https://bayou.herokuapp.com/auth/google/callback",
+      callbackURL: "https://badlands.herokuapp.com/auth/google/callback",
       proxy: true
     },
     (accessToken, refreshToken, profile, done) => {
